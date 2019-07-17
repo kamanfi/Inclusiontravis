@@ -6,5 +6,5 @@ http.createServer(function (req, res) {
   res.end('Hello Travis!\n');
 }).listen(1337, '0.0.0.0');
 
-console.log(`Server running at http://127.0.0.1:${port}/`);;
+console.log(`Server running at http://127.0.0.1:${port}/`);
 
